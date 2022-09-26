@@ -17,7 +17,7 @@ This dataset compiles different aspect of the film industry from 1980 to 2020. I
 - [x] Detail and justify why each variable will be kept in the data set you are using.
 - [ ] Generate each attribute’s descriptors for all variables and discuss your results.
 - [ ] The decision of any descriptor statistics or plots must be justified.
-- [ ] Generate at least two distinct plots that can give hints about the data
+- [x] Generate at least two distinct plots that can give hints about the data
 distribution, and a discussion about the results must be done. 
 
 > Part Two: Data Cleaning
