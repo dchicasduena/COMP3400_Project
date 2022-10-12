@@ -15,13 +15,13 @@ This dataset compiles different aspect of the film industry from 1980 to 2020. I
 > Part One: Dataset Presentation
 - [x] Describe and contextualize your variables.
 - [x] Detail and justify why each variable will be kept in the data set you are using.
-- [ ] Generate each attribute’s descriptors for all variables and discuss your results.
-- [ ] The decision of any descriptor statistics or plots must be justified.
+- [x] Generate each attribute’s descriptors for all variables and discuss your results.
+- [x] The decision of any descriptor statistics or plots must be justified.
 - [x] Generate at least two distinct plots that can give hints about the data
 distribution, and a discussion about the results must be done. 
 
 > Part Two: Data Cleaning
-- [ ] Create a procedure to remove data and ‘simulate’ that data is missing or replace some values with outliers.
-- [ ] Randomly generate outliers and apply them to your data. This step must be explained and documented.
-- [ ] At least two attributes must contain missing values (between 10%-20%) and outliers (3%-5%). Make sure you use a proper technique to ‘decide’ which rows will be considered outliers. This choice must be justified in your notebook. You must also apply the techniques in different features.
-- [ ] Remove the missing data rows and the outliers from your DataFrame to keep track of what was done and further evaluate the effects of your procedures. Such procedures will be applied in your second iteration, but you need to show me that you are able to create a dataset that contains no missing column values or outliers. Show, using some cells and comments, that all your rows and columns have no issues.
+- [x] Create a procedure to remove data and ‘simulate’ that data is missing or replace some values with outliers.
+- [x] Randomly generate outliers and apply them to your data. This step must be explained and documented.
+- [x] At least two attributes must contain missing values (between 10%-20%) and outliers (3%-5%). Make sure you use a proper technique to ‘decide’ which rows will be considered outliers. This choice must be justified in your notebook. You must also apply the techniques in different features.
+- [x] Remove the missing data rows and the outliers from your DataFrame to keep track of what was done and further evaluate the effects of your procedures. Such procedures will be applied in your second iteration, but you need to show me that you are able to create a dataset that contains no missing column values or outliers. Show, using some cells and comments, that all your rows and columns have no issues.
