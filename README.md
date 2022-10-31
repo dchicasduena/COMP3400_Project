@@ -1,27 +1,39 @@
 # COMP 3400: Data Preparation Techniques Project
 
 **Due Dates:**
-  - Iteration 1: *October 14th 2022 @ 10 pm*
+  - ~~Iteration 1: *October 14th 2022 @ 10 pm*~~
   - Iteration 2: *December 2nd 2022 @ 10 pm*
 
 **Our data:** 
-This dataset compiles different aspect of the film industry from 1980 to 2020. In this data we can observe different patterns like the most commons release dates for films, the highest grossing genres of movies, as well as consumers best rated movies. We will use this information for nlahnlahnlah.
+This dataset compiles different aspect of the film industry from 1980 to 2020. In this data we can observe different patterns like the most commons release dates for films, the highest grossing genres of movies, as well as consumers best rated movies. We will use this information to create an analysis of popular movies from 1980 to 2019.
 
 **Credits:**
 - Dataset: https://www.kaggle.com/datasets/danielgrijalvas/movies
 
-**Iteration One Checklist:**
+**Iteration Two Checklist:**
 
-> Part One: Dataset Presentation
-- [x] Describe and contextualize your variables.
-- [x] Detail and justify why each variable will be kept in the data set you are using.
-- [x] Generate each attribute’s descriptors for all variables and discuss your results.
-- [x] The decision of any descriptor statistics or plots must be justified.
-- [x] Generate at least two distinct plots that can give hints about the data
-distribution, and a discussion about the results must be done. 
+> Part One: Addressing Feedback From Iteration One
+- [x] Submit a PDF report answering how you addressed the comments from Iteration One in Iteration Two.
 
-> Part Two: Data Cleaning
-- [x] Create a procedure to remove data and ‘simulate’ that data is missing or replace some values with outliers.
-- [x] Randomly generate outliers and apply them to your data. This step must be explained and documented.
-- [x] At least two attributes must contain missing values (between 10%-20%) and outliers (3%-5%). Make sure you use a proper technique to ‘decide’ which rows will be considered outliers. This choice must be justified in your notebook. You must also apply the techniques in different features.
-- [x] Remove the missing data rows and the outliers from your DataFrame to keep track of what was done and further evaluate the effects of your procedures. Such procedures will be applied in your second iteration, but you need to show me that you are able to create a dataset that contains no missing column values or outliers. Show, using some cells and comments, that all your rows and columns have no issues.
+> Part Two: Data Scaling Pre-assessment
+- [ ] Decide what data scaling techniques will be used for pur projects.
+- [ ] Justify with new or previous plots and/or statistical indicators to justify your decision.
+- [ ] Plot the results side by side, with the original next to the one after using the data scaling techniques, justify your decision.
+ 
+ > Part Three: Handling Missing Data and Outliers
+- [ ] Decide a baseline strategy that will be used to experiment with all the strategies. For example, a baseline strategy would be as simple as a centrality measure (mean, median, or mode) to replace missing values or upper and lower quartile to replace outliers.
+- [ ] Create models using the two algorithms for classification or regression discussed
+in class (e.g., Linear or KNN). You should engineer an experiment where you will be able
+to decide the best combination Data scaling technique + (Classifier, Regressor) that will
+lead to a potential best result. 
+- [ ] Assess the results, remember that producing a single experimental result might not give you confidence to make a decision. You must discuss why you chose the combination.
+- [ ] Justify which evaluation metric you will use to make such a decision.  Make sure
+you optimize your code by generalizing your problem using functions to put your data in a
+proper pipeline of analysis
+
+ > Part Four: Supervised Learning Problem Design (BONUS)
+- [ ] Decide a baseline model that could be improved. A baseline model may be the model
+trained with all attributes available. 
+- [ ] Use any pre-processing strategy available to you that may enhance the
+quality of your results. Those strategies may include engineering novel features for your
+data set, using data discretization, feature selection, dimensionality reduction, etc.
