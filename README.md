@@ -16,13 +16,13 @@ This dataset compiles different aspect of the film industry from 1980 to 2020. I
 - [x] Submit a PDF report answering how you addressed the comments from Iteration One in Iteration Two.
 
 > Part Two: Data Scaling Pre-assessment
-- [ ] Decide what data scaling techniques will be used for pur projects.
-- [ ] Justify with new or previous plots and/or statistical indicators to justify your decision.
-- [ ] Plot the results side by side, with the original next to the one after using the data scaling techniques, justify your decision.
+- [x] Decide what data scaling techniques will be used for pur projects.
+- [x] Justify with new or previous plots and/or statistical indicators to justify your decision.
+- [x] Plot the results side by side, with the original next to the one after using the data scaling techniques, justify your decision.
  
  > Part Three: Handling Missing Data and Outliers
-- [ ] Decide a baseline strategy that will be used to experiment with all the strategies. For example, a baseline strategy would be as simple as a centrality measure (mean, median, or mode) to replace missing values or upper and lower quartile to replace outliers.
-- [ ] Create models using the two algorithms for classification or regression discussed
+- [x] Decide a baseline strategy that will be used to experiment with all the strategies. For example, a baseline strategy would be as simple as a centrality measure (mean, median, or mode) to replace missing values or upper and lower quartile to replace outliers.
+- [x] Create models using the two algorithms for classification or regression discussed
 in class (e.g., Linear or KNN). You should engineer an experiment where you will be able
 to decide the best combination Data scaling technique + (Classifier, Regressor) that will
 lead to a potential best result. 
