@@ -26,8 +26,8 @@ This dataset compiles different aspect of the film industry from 1980 to 2020. I
 in class (e.g., Linear or KNN). You should engineer an experiment where you will be able
 to decide the best combination Data scaling technique + (Classifier, Regressor) that will
 lead to a potential best result. 
-- [ ] Assess the results, remember that producing a single experimental result might not give you confidence to make a decision. You must discuss why you chose the combination.
-- [ ] Justify which evaluation metric you will use to make such a decision.  Make sure
+- [x] Assess the results, remember that producing a single experimental result might not give you confidence to make a decision. You must discuss why you chose the combination.
+- [x] Justify which evaluation metric you will use to make such a decision.  Make sure
 you optimize your code by generalizing your problem using functions to put your data in a
 proper pipeline of analysis
 
